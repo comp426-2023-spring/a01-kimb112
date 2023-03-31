@@ -18,7 +18,7 @@ fs.readFile('./public/index.html', (err, data) => {
 // If there is an error, put it on the console error and return. 
 // Do not be nice about exiting.
 if (err) {
-    console.error(err);
+    console.log(err);
     return;
 }
 
