@@ -31,7 +31,7 @@ if (err) {
 const server = http.createServer((req, res) => {
     res.statusCode = 200
     res.setHeader('Content-Type', 'text/html')
-    res.end('data')
+    res.end(data)
 })
 
 // Start the `server` const listening on the port defined by argument in your `port` const. 
