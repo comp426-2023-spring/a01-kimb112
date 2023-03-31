@@ -2,7 +2,7 @@
   "name": "webserver",
   "version": "0.0.1",
   "description": "This package contains a very simple web server that takes one argument for port and then serves any files inside the public directory.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "node server.js --port=5555"
   },
